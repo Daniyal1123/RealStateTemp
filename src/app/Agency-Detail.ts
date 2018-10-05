@@ -1,0 +1,18 @@
+import { Agency } from './Agency';
+
+export const Agencies: Agency[] = [
+{ id: 11, name: 'Imtiaz Super Market', a_name:'Imtiaz Super Market. We are one of the leading retailers in Karachi.', image : './assets/0.jpg' , address:'Clifton Block 5, Karachi Pakistan', p_image:'./assets/ImtiazSuper.jpg' ,
+ p_name:'DHA-Defence,Karachi' ,
+p_prize:'1000',agent_name:'Imtiaz' , a_pic:'./assets/imtiaz.jpg'},
+{ id: 12, name: 'Mr. Hammad', a_name:'create some mock heroes and pretend they came from the server', image : './assets/1.jpg' , address:'DHA PHASE 7,Dalmia, Karachi Pakistan' , p_image:'./assets/2.jpg' , p_name:'DHA-PHASE-7' , p_prize:'1000', agent_name:'Shareef Khan' , a_pic:'./assets/hammad.jpg'  },
+{ id: 13, name: 'Mr. Faisal', a_name:'create some mock heroes and pretend they came from the server' , image : './assets/2.jpg' , address:'Clifton Block 5, Karachi Pakistan' , p_image:'./assets/3.jpg' , p_name:'DHA-Defence,Karachi' , p_prize:'1000' , agent_name:'Imtiaz' , a_pic:'./assets/faisal.jpg' },
+{ id: 14, name: 'Mr. Sarfraz', a_name:'create some mock heroes and pretend they came from the server' , image : './assets/3.jpg'  , address:'Clifton Block 5, Karachi Pakistan' , p_image:'./assets/5.jpg' , p_name:'DHA-Defence,Karachi' , p_prize:'1000' , agent_name:'Imtiaz' , a_pic:'./assets/sarfraz.jpg' },
+{ id: 15, name: 'Mr. Owais', a_name:'create some mock heroes and pretend they came from the server' , image : './assets/4.jpg'  , address:'Clifton Block 5, Karachi Pakistan' , p_image:'./assets/3.jpg' , p_name:'DHA-Defence,Karachi' , p_prize:'1000' , agent_name:'Imtiaz' , a_pic:'./assets/imtiaz.jpg' },
+{ id: 16, name: 'Mr. Furqan', a_name:'create some mock heroes and pretend they came from the server' , image : './assets/5.jpg' , address:'Clifton Block 5, Karachi Pakistan' , p_image:'./assets/0.jpg' , p_name:'DHA-Defence,Karachi' , p_prize:'1000' ,agent_name:'Imtiaz' , a_pic:'./assets/imtiaz.jpg' },
+{ id: 17, name: 'Mr. Good', a_name:'create some mock heroes and pretend they came from the server' , image : './assets/6.jpg' , address:'Clifton Block 5, Karachi Pakistan'  , p_image:'./assets/3.jpg' , p_name:'DHA-Defence,Karachi' , p_prize:'1000' ,agent_name:'Imtiaz' , a_pic:'./assets/imtiaz.jpg'},
+{ id: 18, name: 'Mr. Bad', a_name:'create some mock heroes and pretend they came from the server ' , image : './assets/1.jpg' , address:'Clifton Block 5, Karachi Pakistan'  , p_image:'./assets/4.jpg' , p_name:'DHA-Defence,Karachi' , p_prize:'1000' ,agent_name:'Imtiaz' , a_pic:'./assets/imtiaz.jpg'},
+{ id: 19, name: 'Mr. Programmer', a_name:'create some mock heroes and pretend they came from the server', image : './assets/5.jpg' , address:'Clifton Block 5, Karachi Pakistan' , p_image:'./assets/1.jpg' , p_name:'DHA-Defence,Karachi' , p_prize:'1000' ,agent_name:'Imtiaz' , a_pic:'./assets/imtiaz.jpg' },
+{ id: 20, name: 'Mr. Good', a_name:'create some mock heroes and pretend they came from the server', image : './assets/6.jpg' , address:'Clifton Block 5, Karachi Pakistan' , p_image:'./assets/1.jpg' , p_name:'DHA-Defence,Karachi' , p_prize:'1000'  ,agent_name:'Imtiaz' , a_pic:'./assets/imtiaz.jpg'},
+{ id: 21, name: 'Mr. Good', a_name:'create some mock heroes and pretend they came from the server' , image : './assets/7.jpg' , address:'Clifton Block 5, Karachi Pakistan'  , p_image:'./assets/1.jpg' , p_name:'DHA-Defence,Karachi' , p_prize:'1000' , agent_name:'Imtiaz' , a_pic:'./assets/imtiaz.jpg'},
+{ id: 22, name: 'Mr. Good', a_name:'create some mock heroes and pretend they came from the server' , image : './assets/5.jpg' , address:'Clifton Block 5, Karachi Pakistan'  , p_image:'./assets/1.jpg' , p_name:'DHA-Defence,Karachi' , p_prize:'1000' ,agent_name:'Imtiaz' , a_pic:'./assets/imtiaz.jpg' }
+];

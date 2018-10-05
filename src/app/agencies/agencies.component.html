@@ -1,0 +1,20 @@
+<br />
+<br />
+<div class="agencies">
+<div class="row">
+<div class="col-lg-3" *ngFor="let age of Agencies" routerLink="/detail/{{age.id}}">
+<div class="content">
+  <div class="image" style="padding-top:30px">
+  <img src="{{age.image}}" height="200px" width="200px"/>
+</div>
+<br />
+<div class="heading" >
+<h5>{{age.name}}</h5>
+</div>
+<div style="padding-bottom:30px">
+<p>{{age.a_name}}</p>
+</div>
+</div>
+   </div>
+</div>
+</div>

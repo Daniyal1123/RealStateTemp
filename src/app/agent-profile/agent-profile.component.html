@@ -1,0 +1,58 @@
+<br />
+<br />
+<div class="container"  *ngIf="age">
+  <div class="top-detail" style="padding-right:30px">
+    <div class="row" >
+      <div class="col-md-3">
+       <img src="{{age.a_pic}}" alt="" class="img-rounded img-responsive"  height="200px" width="200px"/>
+       </div>
+      <div class="col-md-4">
+                    <h4 style="padding-top: 20px">
+                          {{age.agent_name}}</h4>
+<br />
+                          <p>Office:  {{age.address}}</p>
+                    </div>
+                    <div class="col-md-1">
+                                  </div>
+                    <div class="col-md-4" style="text-align:center">
+                                  <h4 style="padding-top: 20px">
+                                        Contact This Agent</h4>
+                                        <button type="button" class="btn btn-primary btn-lg btn-block">Call Emergency</button>
+                                        <button type="button" class="btn btn-primary btn-lg btn-block">Email Emergency</button>
+                                    <ul>
+                                      <li><button type="button" class="btn btn-link"><img src="./src/assets/fb.png" /></button></li>
+                                      <li><button type="button" class="btn btn-link"><img src="./src/assets/twitter.png" /></button></li>
+                                      <li><button type="button" class="btn btn-link"><img src="./src/assets/Linkedin.png" /></button></li>
+                                    </ul>
+                                    <div class="Company">
+                                      <h2>Company</h2>
+                                      <img src="{{age.image}}" height="100px" width="100px"/>
+                                      <h5>{{age.name}}</h5>
+                                      <a href="#" routerLink="/detail/{{age.id}}">View Agency Profile</a>
+                                    </div>
+                                  </div>
+
+                <br />
+                <div class="col-md-7" style="padding-bottom:30px">
+                <h1>{{age.name}}'s Properties</h1>
+
+                    <div class="row" style="padding-bottom:50px ; padding-top:20px" routerLink="/detail/{{age.id}}/Property">
+
+                      <div class="col-md-1">
+                      </div>
+                      <div class="col-md-4">
+                        <img src="{{age.p_image}}"  height="150px" width="150px"/>
+                      </div>
+                      <div class="col-md-1">
+                      </div>
+                      <div class="col-md-6">
+                        <p>{{age.p_name}}</p>
+                        <p><strong> PKR {{age.p_prize}}</strong></p>
+                        <p>Home | Sqft</p>
+                      </div>
+
+                </div>
+              </div>
+            </div>
+
+           </div>

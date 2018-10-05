@@ -1,0 +1,87 @@
+<br />
+<br />
+<div class="container"  *ngIf="age">
+  <div class="top-detail" style="padding-right:30px">
+    <div class="row" >
+      <div class="col-md-3">
+       <img src="{{age.image}}" alt="" class="img-rounded img-responsive"  height="200px" width="200px"/>
+       </div>
+      <div class="col-md-4">
+                    <h4 style="padding-top: 20px">
+                          {{age.name}}</h4>
+                          <p>#CRN</p>
+                          <p>Office:  {{age.address}}</p>
+                    </div>
+                    <div class="col-md-1">
+                                  </div>
+                    <div class="col-md-4" style="text-align:center">
+                                  <h4 style="padding-top: 20px">
+                                        Contact This Agency</h4>
+                                        <button type="button" class="btn btn-primary btn-lg btn-block">Call Emergency</button>
+                                        <button type="button" class="btn btn-primary btn-lg btn-block">Email Emergency</button>
+                                    <ul>
+                                      <li><button type="button" class="btn btn-link"><img src="./src/assets/fb.png" /></button></li>
+                                      <li><button type="button" class="btn btn-link"><img src="./src/assets/twitter.png" /></button></li>
+                                      <li><button type="button" class="btn btn-link"><img src="./src/assets/Linkedin.png" /></button></li>
+
+                                    </ul>
+                                  </div>
+
+                <br />
+                <div class="col-md-7" style="padding-bottom:30px">
+                <h1>{{age.name}} Details</h1>
+                <p>{{age.a_name}}  </p>
+              </div>
+            </div>
+
+           </div>
+           <ul class="nav nav-tabs" style="border-bottom: 1px solid">
+             <li class="nav-item">
+               <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home"  role="tab" aria-controls="home" aria-selected="true">
+                 Our Properties</a>
+             </li>
+             <li class="nav-item">
+                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Our Agents</a>
+             </li>
+           </ul>
+           <div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+         <h3 style="padding-left:30px">Properties</h3>
+
+    <div class="row" style="padding-bottom:50px ; padding-top:20px" routerLink="/detail/{{age.id}}/Property">
+
+      <div class="col-md-1">
+      </div>
+      <div class="col-md-4">
+        <img src="{{age.p_image}}"  height="150px" width="150px"/>
+      </div>
+      <div class="col-md-1">
+      </div>
+      <div class="col-md-6">
+        <p>{{age.p_name}}</p>
+        <p><strong> PKR {{age.p_prize}}</strong></p>
+        <p>Home | Sqft</p>
+      </div>
+
+</div>
+    </div>
+  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+    <h3 style="padding-left:30px">AGENTS</h3>
+    <div class="row" style="padding-bottom:50px ; padding-top:20px" routerLink="/detail/{{age.id}}/Agent">
+
+      <div class="col-md-1">
+      </div>
+      <div class="col-md-4">
+        <img src="{{age.a_pic}}"  height="150px" width="150px" />
+      </div>
+
+      <div class="col-md-6">
+        <p>{{age.agent_name}}</p>
+        <p>Company   <strong>{{age.name}}</strong></p>
+        <p><button type="button" class="btn btn-primary">Contact</button>
+          <button type="button" class="btn btn-primary" style="padding-left:20px">Email</button>
+      </div>
+</div>
+  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+</div>
+         </div>
